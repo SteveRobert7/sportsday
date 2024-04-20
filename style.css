@@ -1,0 +1,78 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2c3e50; 
+    color: #ecf0f1; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #34495e; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff; 
+  }
+  
+  #console {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2c3e50; 
+    border: 1px solid #34495e; 
+    border-radius: 5px;
+    min-height: 200px;
+    overflow-y: auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .score {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .score.red { background-color: #ff6b6b; color: #fff; }
+  .score.blue { background-color: #74b9ff; color: #fff; }
+  .score.green { background-color: #2ecc71; color: #fff; }
+  .score.yellow { background-color: #ffeaa7; color: #000; }
+  
+  .score-container { display: flex; flex-wrap: wrap; margin-bottom: 10px; }
+  .heading { font-weight: bold; margin-bottom: 10px; }
+  
+  
+  .race-times-container {
+    margin-top: 10px;
+  }
+  
+  .race-times-box {
+    color: #fff; 
+  }
+  
+  .race-time {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .race-time.red {
+    color: #e74c3c; 
+  }
+  
+  .race-time.blue {
+    color: #3498db; 
+  }
+  
+  .race-time.green {
+    color: #2ecc71; 
+  }
+  
+  .race-time.yellow {
+    color: #f1c40f; 
+  }
+  
